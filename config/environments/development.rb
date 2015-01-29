@@ -27,6 +27,13 @@ Rails.application.configure do
   # number of complex assets.
   config.assets.debug = true
 
+<<<<<<< HEAD
+=======
+  # Asset digests allow you to set far-future HTTP expiration dates on all assets,
+  # yet still be able to expire them through the digest params.
+  config.assets.digest = true
+
+>>>>>>> 929a8b7df4b79efeb2e27943eeb0b5bceebb9a04
   # Adds additional error checking when serving assets at runtime.
   # Checks for improperly declared sprockets dependencies.
   # Raises helpful error messages.
