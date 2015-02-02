@@ -1,7 +1,17 @@
-<% provide(:title, 'Home') %>
-<h1>Shopping Cart</h1>
-<p>
-	This is the home page for the
-	<a href="http://railstutorial.org/">Shopping Cart</a>
-	...or whatever.
-</p>
+<div class="center hero-unit">
+	<h1>Shopping Cart</h1>
+	
+	<h2>
+		This is the home page for the
+		<a href="http://railstutorial.org/">Shopping Cart</a>
+		...or whatever.
+	</h2>
+	
+	<%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-custom" %>
+	
+	<p>
+	</p>
+	
+	<%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
+</div>
+
